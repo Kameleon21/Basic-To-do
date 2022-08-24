@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    background: rgb(255, 255, 224);
+}
+
+.container {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 40vw;
+}
+
+.btn {
+   background-color: rgba(241, 11, 11, 0.795);
+   
+}
+
+.btn:hover {
+   border-radius: 5px;
+}
+
+.done {
+   text-decoration: line-through;
+}
+
+ul {
+   text-decoration: none;
+   padding-top: 10px;
+}
+
+ul li:hover {
+   background-color: lightgrey;
+
+}
+
+ul li {
+   list-style: none;
+   border: 2px solid lightgrey;
+   border-radius: 5px;
+   margin: 5px 0;
+}
+
+.top {
+   display: grid;
+   gap:5px;
+}
+
+h1 {
+   text-align: center;
+}
